@@ -1,3 +1,6 @@
+I will fix this fork to include a custom database option soon, but for now,
+it will only work on my computer
+
 # neco-look: look completion for neocomplcache/neocomplete/deoplete
 
 A neocomplcache/neocomplete/deoplete plugin for `/usr/bin/look` for completing words in English.
