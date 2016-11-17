@@ -22,7 +22,7 @@ class Source(Base):
 
         try:
             words = subprocess.check_output(
-                    ['look', context['complete_str']]).splitlines()
+                    ['look', context['complete_str'], '/home/andesil/Downloads/linuxwords.1/linux.words']).splitlines()
         except subprocess.CalledProcessError:
             return []
 
